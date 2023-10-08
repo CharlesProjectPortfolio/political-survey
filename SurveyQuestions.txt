@@ -1,0 +1,20 @@
+1:What should the government do to help the poor?
+2:How should the government handle abortion rights?
+3:How do you feel about the second amendment?
+4:How involved should the government be in the regulation of businesses?
+5:Does the government need to take a stronger stance on illegal immigration.
+6:Should the government have the authority to set and uphold moral standards for its citizens?
+7:Should the government have the authority to outlaw certain drugs or substances?
+8:Should eminent domain be legal?
+9:Should the U.S. continue to act as the world police?
+10:Should African Americans receive reparations to right the wrongs of slavery?
+11:Should health care be treated as a right?
+12:What should the government do about the minimum wage?
+13:Should there be federal protections for unions and their members?
+14:Should the government be involved in negotiations between unions and companies?
+15:Should there be government programs in place to help ensure equitable outcomes for all people?
+16:Should the government be able to incur debt?
+17:Who should make decisions about school curriculums?
+18:Do taxes need to be increased on the wealthy?
+19:How strongly should the right to private property be protected?
+20:Which political party do you affiliate with?
