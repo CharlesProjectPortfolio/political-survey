@@ -1,20 +1,20 @@
-C:Anything that's necessary.
-C:Abortion should be subsidized by the government.
-C:The second amendment should be abolished.
-C:Businesses should be heavily regulated.
-C:All people seeking a better life should be welcomed.
-C:Yes, the government is responsible for the fair and equal treatment of all people.
-C:No, All drugs should be decriminalized.
-C:Yes, any property that is being mismanaged or that is deemed useful to the public.
-C:Yes, but we should rely on diplomacy not military strength.
-C:Yes, they are owed a debt for all the wrongs they have faced in the past.
-C:Yes, universal healthcare should be freely available to all.
-C:Increase it so there is a minimum standard of living for all, no matter what job they have.
-C:Yes, the government should always protect employees
-C:Yes, it is the government's responsibility to make sure companies aren't taking advantage of workers.
-C:Yes, the government should do whatever is necessary to ensure all people have a good life.
-C:No, we should tax the wealthy to fill the gap between government spending and income.
-C:The federal government should set the curriculum to ensure the accuracy of the subjects being taught.
-C:Yes, the hoarding of wealth only hurts us all.
-C:Private property should be respected and only seized if there is a public need for it.
-C:Green.
+Anything that's necessary.
+Abortion should be subsidized by the government.
+The second amendment should be abolished.
+Businesses should be heavily regulated.
+All people seeking a better life should be welcomed.
+Yes, the government is responsible for the fair and equal treatment of all people.
+No, All drugs should be decriminalized.
+Yes, any property that is being mismanaged or that is deemed useful to the public.
+Yes, but we should rely on diplomacy not military strength.
+Yes, they are owed a debt for all the wrongs they have faced in the past.
+Yes, universal healthcare should be freely available to all.
+Increase it so there is a minimum standard of living for all, no matter what job they have.
+Yes, the government should always protect employees
+Yes, it is the government's responsibility to make sure companies aren't taking advantage of workers.
+Yes, the government should do whatever is necessary to ensure all people have a good life.
+No, we should tax the wealthy to fill the gap between government spending and income.
+The federal government should set the curriculum to ensure the accuracy of the subjects being taught.
+Yes, the hoarding of wealth only hurts us all.
+Private property should be respected and only seized if there is a public need for it.
+Green.

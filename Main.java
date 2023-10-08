@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.util.Random;
 import java.util.*;
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -139,45 +140,45 @@ class Main {
     //Write Answers to republican party file
     try {
     BufferedWriter RmyWriter = new BufferedWriter(new FileWriter("Republican.txt"));
-    RmyWriter.write("A:Nothing.");
+    RmyWriter.write("Nothing.");
     RmyWriter.newLine();
-    RmyWriter.write("A:No exceptions ban.");
+    RmyWriter.write("No exceptions ban.");
     RmyWriter.newLine();
-    RmyWriter.write("A:I fully support the right to keep and bear arms.");
+    RmyWriter.write("I fully support the right to keep and bear arms.");
     RmyWriter.newLine();
-    RmyWriter.write("A:Some regulation is necessary.");
+    RmyWriter.write("Some regulation is necessary.");
     RmyWriter.newLine();
-    RmyWriter.write("A:Yes, all illegal aliens need to be prevented from entering the country and if they are already here they should be deported.");
+    RmyWriter.write("Yes, all illegal aliens need to be prevented from entering the country and if they are already here they should be deported.");
     RmyWriter.newLine();
-    RmyWriter.write("A:Yes, a moral society is a just society?");
+    RmyWriter.write("Yes, a moral society is a just society");
     RmyWriter.newLine();
-    RmyWriter.write("A:Yes, if it is deemed harmful to society.");
+    RmyWriter.write("Yes, if it is deemed harmful to society.");
     RmyWriter.newLine();
-    RmyWriter.write("A:Yes, but only under very strict circumstances.");
+    RmyWriter.write("Yes, but only under very strict circumstances.");
     RmyWriter.newLine();
-    RmyWriter.write("A:Yes, As the strongest country it is our duty.");
+    RmyWriter.write("Yes, As the strongest country it is our duty.");
     RmyWriter.newLine();
-    RmyWriter.write("A:No, people who had nothing to do with it shouldn't be responsible for it.");
+    RmyWriter.write("No, people who had nothing to do with it shouldn't be responsible for it.");
     RmyWriter.newLine();
-    RmyWriter.write("A:No, that would only further incentivize people to rely on the government.");
+    RmyWriter.write("No, that would only further incentivize people to rely on the government.");
     RmyWriter.newLine();
-    RmyWriter.write("A:Keep it where it is currently at.");
+    RmyWriter.write("Keep it where it is currently at.");
     RmyWriter.newLine();
-    RmyWriter.write("A:No, the government shouldn't get involved between companies and employees.");
+    RmyWriter.write("No, the government shouldn't get involved between companies and employees.");
     RmyWriter.newLine();
-    RmyWriter.write("A:No, that's between the company and union.");
+    RmyWriter.write("No, that's between the company and union.");
     RmyWriter.newLine();
-    RmyWriter.write("A:No, everyone should get an equal opportunity, but there are no guaranteed outcomes.");
+    RmyWriter.write("No, everyone should get an equal opportunity, but there are no guaranteed outcomes.");
     RmyWriter.newLine();
-    RmyWriter.write("A:Yes, but only if absolutely necessary.");
+    RmyWriter.write("Yes, but only if absolutely necessary.");
     RmyWriter.newLine();
-    RmyWriter.write("A:States should set there own curriculums.");
+    RmyWriter.write("States should set there own curriculums.");
     RmyWriter.newLine();
-    RmyWriter.write("A:No, they will just leave the country, which will hurt the economy.");
+    RmyWriter.write("No, they will just leave the country, which will hurt the economy.");
     RmyWriter.newLine();
-    RmyWriter.write("A:There is very little if any reason that the right to private property should be infringed upon.");
+    RmyWriter.write("There is very little if any reason that the right to private property should be infringed upon.");
     RmyWriter.newLine();
-    RmyWriter.write("A:Republican.");
+    RmyWriter.write("Republican.");
     RmyWriter.close();
     } catch (IOException e) {
       System.out.println("An error occured.");
@@ -187,45 +188,45 @@ class Main {
     //Write Answers to Democrat party file
     try {
     BufferedWriter DmyWriter = new BufferedWriter(new FileWriter("Democrat.txt"));
-    DmyWriter.write("B:Offer welfare programs.");
+    DmyWriter.write("Offer welfare programs.");
     DmyWriter.newLine();
-    DmyWriter.write("B:Allow it up to the third trimester.");
+    DmyWriter.write("Allow it up to the third trimester.");
     DmyWriter.newLine();
-    DmyWriter.write("B:The second amendment wasn't written with today's guns in mind.");
+    DmyWriter.write("The second amendment wasn't written with today's guns in mind.");
     DmyWriter.newLine();
-    DmyWriter.write("B:The government should put the people's needs above corporations.");
+    DmyWriter.write("The government should put the people's needs above corporations.");
     DmyWriter.newLine();
-    DmyWriter.write("B:If they are seeking political asylum then they should be fully welcomed.");
+    DmyWriter.write("If they are seeking political asylum then they should be fully welcomed.");
     DmyWriter.newLine();
-    DmyWriter.write("B:No, People should be free to live as they please, as long as it doesn't infringe upon others.");
+    DmyWriter.write("No, People should be free to live as they please, as long as it doesn't infringe upon others.");
     DmyWriter.newLine();
-    DmyWriter.write("B:Yes, if it has been proven to be harmful to the individual.");
+    DmyWriter.write("Yes, if it has been proven to be harmful to the individual.");
     DmyWriter.newLine();
-    DmyWriter.write("B:Yes, if the land is needed for public or government use.");
+    DmyWriter.write("Yes, if the land is needed for public or government use.");
     DmyWriter.newLine();
-    DmyWriter.write("B:Yes, As long as there are still groups being oppressed.");
+    DmyWriter.write("Yes, As long as there are still groups being oppressed.");
     DmyWriter.newLine();
-    DmyWriter.write("B:Yes, It will help put them on equal ground with other groups.");
+    DmyWriter.write("Yes, It will help put them on equal ground with other groups.");
     DmyWriter.newLine();
-    DmyWriter.write("B:Yes, Everyone has a right to healthcare.");
+    DmyWriter.write("Yes, Everyone has a right to healthcare.");
     DmyWriter.newLine();
-    DmyWriter.write("B:Increase it to account for inflation.");
+    DmyWriter.write("Increase it to account for inflation.");
     DmyWriter.newLine();
-    DmyWriter.write("B:Yes the government should protect unions.");
+    DmyWriter.write("Yes the government should protect unions.");
     DmyWriter.newLine();
-    DmyWriter.write("B:Yes, but only if a fair deal cannot be reached.");
+    DmyWriter.write("Yes, but only if a fair deal cannot be reached.");
     DmyWriter.newLine();
-    DmyWriter.write("B:Yes, but only if they were born at a disadvantage.");
+    DmyWriter.write("Yes, but only if they were born at a disadvantage.");
     DmyWriter.newLine();
-    DmyWriter.write("B:Yes, there are government programs which have to be funded no matter what.");
+    DmyWriter.write("Yes, there are government programs which have to be funded no matter what.");
     DmyWriter.newLine();
-    DmyWriter.write("B:States should set their own curriculum but the federal government should be able to make changes if necessary.");
+    DmyWriter.write("States should set their own curriculum but the federal government should be able to make changes if necessary.");
     DmyWriter.newLine();
-    DmyWriter.write("B:Yes, they should have to pay their fair share just like everyone else.");
+    DmyWriter.write("Yes, they should have to pay their fair share just like everyone else.");
     DmyWriter.newLine();
-    DmyWriter.write("B:Private property should be protected unless there is good reason for the public or government to have access to it.");
+    DmyWriter.write("Private property should be protected unless there is good reason for the public or government to have access to it.");
     DmyWriter.newLine();
-    DmyWriter.write("B:Democrat.");
+    DmyWriter.write("Democrat.");
     DmyWriter.close();
     } catch (IOException e) {
       System.out.println("An error occured.");
@@ -235,45 +236,45 @@ class Main {
     //Write Answers to Green party file
     try {
     BufferedWriter GmyWriter = new BufferedWriter(new FileWriter("Green.txt"));
-    GmyWriter.write("C:Anything that's necessary.");
+    GmyWriter.write("Anything that's necessary.");
     GmyWriter.newLine();
-    GmyWriter.write("C:Abortion should be subsidized by the government.");
+    GmyWriter.write("Abortion should be subsidized by the government.");
     GmyWriter.newLine();
-    GmyWriter.write("C:The second amendment should be abolished.");
+    GmyWriter.write("The second amendment should be abolished.");
     GmyWriter.newLine();
-    GmyWriter.write("C:Businesses should be heavily regulated.");
+    GmyWriter.write("Businesses should be heavily regulated.");
     GmyWriter.newLine();
-    GmyWriter.write("C:All people seeking a better life should be welcomed.");
+    GmyWriter.write("All people seeking a better life should be welcomed.");
     GmyWriter.newLine();
-    GmyWriter.write("C:Yes, the government is responsible for the fair and equal treatment of all people.");
+    GmyWriter.write("Yes, the government is responsible for the fair and equal treatment of all people.");
     GmyWriter.newLine();
-    GmyWriter.write("C:No, All drugs should be decriminalized.");
+    GmyWriter.write("No, All drugs should be decriminalized.");
     GmyWriter.newLine();
-    GmyWriter.write("C:Yes, any property that is being mismanaged or that is deemed useful to the public.");
+    GmyWriter.write("Yes, any property that is being mismanaged or that is deemed useful to the public.");
     GmyWriter.newLine();
-    GmyWriter.write("C:Yes, but we should rely on diplomacy not military strength.");
+    GmyWriter.write("Yes, but we should rely on diplomacy not military strength.");
     GmyWriter.newLine();
-    GmyWriter.write("C:Yes, they are owed a debt for all the wrongs they have faced in the past.");
+    GmyWriter.write("Yes, they are owed a debt for all the wrongs they have faced in the past.");
     GmyWriter.newLine();
-    GmyWriter.write("C:Yes, universal healthcare should be freely available to all.");
+    GmyWriter.write("Yes, universal healthcare should be freely available to all.");
     GmyWriter.newLine();
-    GmyWriter.write("C:Increase it so there is a minimum standard of living for all, no matter what job they have.");
+    GmyWriter.write("Increase it so there is a minimum standard of living for all, no matter what job they have.");
     GmyWriter.newLine();
-    GmyWriter.write("C:Yes, the government should always protect employees");
+    GmyWriter.write("Yes, the government should always protect employees");
     GmyWriter.newLine();
-    GmyWriter.write("C:Yes, it is the government's responsibility to make sure companies aren't taking advantage of workers.");
+    GmyWriter.write("Yes, it is the government's responsibility to make sure companies aren't taking advantage of workers.");
     GmyWriter.newLine();
-    GmyWriter.write("C:Yes, the government should do whatever is necessary to ensure all people have a good life.");
+    GmyWriter.write("Yes, the government should do whatever is necessary to ensure all people have a good life.");
     GmyWriter.newLine();
-    GmyWriter.write("C:No, we should tax the wealthy to fill the gap between government spending and income.");
+    GmyWriter.write("No, we should tax the wealthy to fill the gap between government spending and income.");
     GmyWriter.newLine();
-    GmyWriter.write("C:The federal government should set the curriculum to ensure the accuracy of the subjects being taught.");
+    GmyWriter.write("The federal government should set the curriculum to ensure the accuracy of the subjects being taught.");
     GmyWriter.newLine();
-    GmyWriter.write("C:Yes, the hoarding of wealth only hurts us all.");
+    GmyWriter.write("Yes, the hoarding of wealth only hurts us all.");
     GmyWriter.newLine();
-    GmyWriter.write("C:Private property should be respected and only seized if there is a public need for it.");
+    GmyWriter.write("Private property should be respected and only seized if there is a public need for it.");
     GmyWriter.newLine();
-    GmyWriter.write("C:Green.");
+    GmyWriter.write("Green.");
     GmyWriter.close();
     } catch (IOException e) {
       System.out.println("An error occured.");
@@ -283,45 +284,45 @@ class Main {
     //Write Answers to Libertarian party file
     try {
     BufferedWriter LmyWriter = new BufferedWriter(new FileWriter("Libertarian.txt"));
-    LmyWriter.write("D:Create programs to give them jobs not money.");
+    LmyWriter.write("Create programs to give them jobs not money.");
     LmyWriter.newLine();
-    LmyWriter.write("D:There should be exceptions for rape and incest.");
+    LmyWriter.write("There should be exceptions for rape and incest.");
     LmyWriter.newLine();
-    LmyWriter.write("D:The government has no right banning any weapon.");
+    LmyWriter.write("The government has no right banning any weapon.");
     LmyWriter.newLine();
-    LmyWriter.write("D:The free market should be the only regulation.");
+    LmyWriter.write("The free market should be the only regulation.");
     LmyWriter.newLine();
-    LmyWriter.write("D:Some regulation is necessary to prevent criminals and terrorists from entering the country.");
+    LmyWriter.write("Some regulation is necessary to prevent criminals and terrorists from entering the country.");
     LmyWriter.newLine();
-    LmyWriter.write("D:No, The government doesn't have the authority to set moral standards.");
+    LmyWriter.write("No, The government doesn't have the authority to set moral standards.");
     LmyWriter.newLine();
-    LmyWriter.write("D:No, People have the right to decide what they choose to consume.");
+    LmyWriter.write("No, People have the right to decide what they choose to consume.");
     LmyWriter.newLine();
-    LmyWriter.write("D:No, the government never has the right to seize private property.");
+    LmyWriter.write("No, the government never has the right to seize private property.");
     LmyWriter.newLine();
-    LmyWriter.write("D:No, we should only get involved if there is a direct threat to us.");
+    LmyWriter.write("No, we should only get involved if there is a direct threat to us.");
     LmyWriter.newLine();
-    LmyWriter.write("D:No, While slavery was wrong, people should not be responsible for the  indiscretions of their ancestors.");
+    LmyWriter.write("No, While slavery was wrong, people should not be responsible for the  indiscretions of their ancestors.");
     LmyWriter.newLine();
-    LmyWriter.write("D:No, healthcare should be left to the free market with no government involvement.");
+    LmyWriter.write("No, healthcare should be left to the free market with no government involvement.");
     LmyWriter.newLine();
-    LmyWriter.write("D:There should be no minimum wage, the free market will determine the value of labor.");
+    LmyWriter.write("There should be no minimum wage, the free market will determine the value of labor.");
     LmyWriter.newLine();
-    LmyWriter.write("D:No, the government has no right to get involved in private matters.");
+    LmyWriter.write("No, the government has no right to get involved in private matters.");
     LmyWriter.newLine();
-    LmyWriter.write("D:No, the government should never get involved in a private business dispute.");
+    LmyWriter.write("No, the government should never get involved in a private business dispute.");
     LmyWriter.newLine();
-    LmyWriter.write("D: No, life is what you make of it.");
+    LmyWriter.write("No, life is what you make of it.");
     LmyWriter.newLine();
-    LmyWriter.write("D:No, it is unfair to leave future generations saddled with debt.");
+    LmyWriter.write("No, it is unfair to leave future generations saddled with debt.");
     LmyWriter.newLine();
-    LmyWriter.write("D:States should set the curriculums with input from local governments.");
+    LmyWriter.write("States should set the curriculums with input from local governments.");
     LmyWriter.newLine();
-    LmyWriter.write("D:No, taxation is theft.");
+    LmyWriter.write("No, taxation is theft.");
     LmyWriter.newLine();
-    LmyWriter.write("D:The right to private property should under no circumstance be infringed upon.");
+    LmyWriter.write("The right to private property should under no circumstance be infringed upon.");
     LmyWriter.newLine();
-    LmyWriter.write("D:Libertarian.");
+    LmyWriter.write("Libertarian.");
     LmyWriter.close();
     } catch (IOException e) {
       System.out.println("An error occured.");
@@ -404,13 +405,62 @@ class Main {
       String Ganswer = GmyReader.nextLine();
       String Lanswer = LmyReader.nextLine();
       String Wanswer = WmyReader.nextLine();
+
+      //Initialize random number generator
+      Random rand = new Random();
+      //First random number
+      int rand1 = rand.nextInt(4);
+      //Second random number
+      int rand2 = rand.nextInt(4);
+      //Make sure rand2 != rand1
+      while (rand2 == rand1) {
+        rand2 = rand.nextInt(4);
+      }
+      //Third random number
+      int rand3 = rand.nextInt(4);
+      //Make sure rand3 != rand2 or rand1
+      while (rand3 == rand2 || rand3 == rand1) {
+        rand3 = rand.nextInt(4);
+      }
+      //Fourth random number
+      int rand4 = rand.nextInt(4);
+      //Make sure rand4 != rand1, rand2, or rand3
+      while (rand4 == rand3 || rand4 == rand2 || rand4 == rand1) {
+        rand4 = rand.nextInt(4);
+      }
+        
+      //Create string array to hold random order
+      String[] randAns = new String[4];
+      //Create string array for tracking answers
+      String[] trackAns = new String[4];
+
+      //Put answers into randAns array
+      randAns[rand1] = Ranswer;
+      randAns[rand2] = Danswer;
+      randAns[rand3] = Ganswer;
+      randAns[rand4] = Lanswer;
+
+      //Put answer keys into trackAns
+      trackAns[rand1] = "A";
+      trackAns[rand2] = "B";
+      trackAns[rand3] = "C";
+      trackAns[rand4] = "D";
+
       //Print statement to display the questions and answer choices
       System.out.println(data);
-      System.out.println(Ranswer);
-      System.out.println(Danswer);
-      System.out.println(Ganswer);
-      System.out.println(Lanswer);
+      for (int i = 0; i < randAns.length; i++) {
+        if (i == 0) {
+          System.out.println("A: " +randAns[i]);
+        } else if (i == 1) {
+          System.out.println("B: " +randAns[i]);
+        } else if (i == 2) {
+          System.out.println("C: " +randAns[i]);
+        } else if (i == 3) {
+          System.out.println("D: " +randAns[i]);
+        }
+      }
       System.out.println();
+
 
       //Get the user input
       Scanner myObject = new Scanner(System.in);//Create scanner object
@@ -425,8 +475,23 @@ class Main {
       System.out.println();
       //StringBuilder variable to access the correct answer and associated weights in the weights file
       StringBuilder sb = new StringBuilder(Wanswer);
-      int startIndex = sb.indexOf(ans) + 2;//Get starting index
-      int endIndex = sb.indexOf("}", startIndex);//Get ending index
+      
+      //Get position in track array from user answer
+      int startIndex = 0, endIndex = 0;
+      if (ans.equals("A")) {
+      startIndex = sb.indexOf(trackAns[0]) + 2;//Get starting index
+      endIndex = sb.indexOf("}", startIndex);//Get ending index
+      } else if (ans.equals("B")) {
+      startIndex = sb.indexOf(trackAns[1]) + 2;//Get starting index
+      endIndex = sb.indexOf("}", startIndex);//Get ending index
+      } else if (ans.equals("C")) {
+      startIndex = sb.indexOf(trackAns[2]) + 2;//Get starting index
+      endIndex = sb.indexOf("}", startIndex);//Get ending index
+      } else if (ans.equals("D")) {
+      startIndex = sb.indexOf(trackAns[3]) + 2;//Get starting index
+      endIndex = sb.indexOf("}", startIndex);//Get ending index
+      }
+        
       //Create a substring with the correct weights
       String correctWeights = sb.substring(startIndex, endIndex);
       int counter = 0;//Counter variable for totals array

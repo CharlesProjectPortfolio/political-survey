@@ -1,20 +1,20 @@
-D:Create programs to give them jobs not money.
-D:There should be exceptions for rape and incest.
-D:The government has no right banning any weapon.
-D:The free market should be the only regulation.
-D:Some regulation is necessary to prevent criminals and terrorists from entering the country.
-D:No, The government doesn't have the authority to set moral standards.
-D:No, People have the right to decide what they choose to consume.
-D:No, the government never has the right to seize private property.
-D:No, we should only get involved if there is a direct threat to us.
-D:No, While slavery was wrong, people should not be responsible for the  indiscretions of their ancestors.
-D:No, healthcare should be left to the free market with no government involvement.
-D:There should be no minimum wage, the free market will determine the value of labor.
-D:No, the government has no right to get involved in private matters.
-D:No, the government should never get involved in a private business dispute.
-D: No, life is what you make of it.
-D:No, it is unfair to leave future generations saddled with debt.
-D:States should set the curriculums with input from local governments.
-D:No, taxation is theft.
-D:The right to private property should under no circumstance be infringed upon.
-D:Libertarian.
+Create programs to give them jobs not money.
+There should be exceptions for rape and incest.
+The government has no right banning any weapon.
+The free market should be the only regulation.
+Some regulation is necessary to prevent criminals and terrorists from entering the country.
+No, The government doesn't have the authority to set moral standards.
+No, People have the right to decide what they choose to consume.
+No, the government never has the right to seize private property.
+No, we should only get involved if there is a direct threat to us.
+No, While slavery was wrong, people should not be responsible for the  indiscretions of their ancestors.
+No, healthcare should be left to the free market with no government involvement.
+There should be no minimum wage, the free market will determine the value of labor.
+No, the government has no right to get involved in private matters.
+No, the government should never get involved in a private business dispute.
+No, life is what you make of it.
+No, it is unfair to leave future generations saddled with debt.
+States should set the curriculums with input from local governments.
+No, taxation is theft.
+The right to private property should under no circumstance be infringed upon.
+Libertarian.
