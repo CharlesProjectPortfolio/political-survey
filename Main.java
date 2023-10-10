@@ -25,7 +25,7 @@ class Main {
     }
     
 
-    //Create the four file for political parties
+    //Create the four file for political parties.
     //Create file for Republican party
     try {
       File republican = new File("Republican.txt");//Initialize file
